@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(mayhem-cmake-example)
+project(chatwaifu_mobile)
 
 add_executable(fuzzme fuzzme.c)
 

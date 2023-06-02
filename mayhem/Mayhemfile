@@ -1,4 +1,4 @@
-project: chatwaifu_mobile
+project: chatwaifu-mobile
 target: fuzzme
 
 cmds:

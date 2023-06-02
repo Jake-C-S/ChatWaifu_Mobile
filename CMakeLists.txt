@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(chatwaifu_mobile)
+project(chatwaifu-mobile)
 
 add_executable(fuzzme fuzzme.c)
 

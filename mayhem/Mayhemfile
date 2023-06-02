@@ -1,0 +1,5 @@
+project: chatwaifu_mobile
+target: fuzzme
+
+cmds:
+  - cmd: /fuzzme @@

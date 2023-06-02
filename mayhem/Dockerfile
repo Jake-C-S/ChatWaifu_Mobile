@@ -6,8 +6,8 @@ RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y cmake clang
 
 ## Add source code to the build stage.
-ADD . /chatwaifu_mobile
-WORKDIR /chatwaifu_mobile
+ADD . /chatwaifu-mobile
+WORKDIR /chatwaifu-mobile
 
 ## TODO: ADD YOUR BUILD INSTRUCTIONS HERE.
 RUN mkdir build && \
@@ -19,4 +19,4 @@ RUN mkdir build && \
 FROM --platform=linux/amd64 ubuntu:20.04
 
 ## TODO: Change <Path in Builder Stage>
-COPY --from=builder /chatwaifu_mobile/build/fuzzme /
+COPY --from=builder /chatwaifu-mobile/build/fuzzme /
